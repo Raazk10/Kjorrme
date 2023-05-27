@@ -6,7 +6,7 @@ body {
 }
 
 .header-container {
-	background-image: url('/assets/images/headerBackground.webp');
+	background-image: url('/_app/assets/images/headerBackground.webp');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

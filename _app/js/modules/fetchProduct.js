@@ -66,7 +66,7 @@ function renderHtml(product) {
   buttonElement.classList.add("car-card__button");
   buttonElement.textContent = "Vis mer";
   buttonElement.addEventListener("click", () => {
-    window.location.href = `/car-detail/index.html?id=${product._id}`;
+    window.location.href = `/_app/car-detail/index.html?id=${product._id}`;
   });
   productDetails.appendChild(buttonElement);
 
